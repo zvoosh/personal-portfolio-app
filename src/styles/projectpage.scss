@@ -1,0 +1,84 @@
+@media only screen and (max-width: 478px) {
+  .project-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .image-wrapper {
+    width: 95%;
+    height: 125px;
+    border: 1px solid #c0c0c0;
+  }
+  .text-wrapper {
+    margin: 1rem;
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 478px) {
+  .project-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .image-wrapper {
+    width: 95%;
+    height: 300px;
+    border: 1px solid #c0c0c0;
+  }
+  .text-wrapper {
+    margin: 1rem;
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .project-wrapper {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .image-wrapper {
+    width: 75%;
+    height: fit-content;
+    max-height: 400px;
+    border: 1px solid #c0c0c0;
+  }
+  .text-wrapper {
+    margin: 1rem;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .project-wrapper {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .image-wrapper {
+    width: 50%;
+    margin-right: 3rem;
+    height: 300px;
+    border: 1px solid #c0c0c0;
+  }
+  .text-wrapper {
+    margin: 1rem;
+    width: 50%;
+  }
+}
+.image-wrapper:hover {
+  transform: scale(.95);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
