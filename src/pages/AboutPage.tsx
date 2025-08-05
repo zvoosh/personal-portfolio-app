@@ -1,30 +1,15 @@
 const AboutPage = () => {
   return (
-    <div
-      className="w-100 h-100 flex justify-center flex-col"
-      style={{ marginBottom: "1rem" }}
-    >
-      <h2
-        className="mt-2"
-        style={{ textDecoration: "underline", textUnderlineOffset: "5px" }}
-      >
-        About me
-      </h2>
-      <div className="mt-2">
+    // AboutPage represents my journey as a developer
+    <div className="w-100 h-100 flex justify-center flex-col mb-1">
+      <h2 className="mt-2 underline underline-5">About me</h2>
+      <p className="mt-2">
         Throughout my studies, I explored a diverse set of subjects that shaped
         my understanding of both theoretical and practical aspects of computing.
         These included:
-      </div>
+      </p>
       <div>
-        <ul
-          style={{
-            listStyleType: "disc",
-            listStylePosition: "inside",
-            color: "white",
-            paddingLeft: "1rem",
-            paddingTop: "1rem",
-          }}
-        >
+        <ul className="pl-1 pt-1 white list-disc list-position-inside">
           <li>Frontend Development</li>
           <li>Backend Development</li>
           <li>Cloud Computing & Deployment</li>
@@ -37,7 +22,7 @@ const AboutPage = () => {
           <li>Software Testing & Quality Assurance</li>
         </ul>
       </div>
-      <div style={{ marginTop: "2rem" }}>
+      <p className="mt-2">
         Each course and project helped me build a strong foundation in
         problem-solving, algorithmic thinking, and scalable software design. My
         professional journey began with a part-time role at FactoryWW, where I
@@ -47,8 +32,8 @@ const AboutPage = () => {
         expanded my toolkit by working with technologies like Flask, Angular,
         and React, gaining hands-on experience in building dynamic and
         responsive web applications.
-      </div>
-      <div style={{ marginTop: "1rem" }}>
+      </p>
+      <p className="mt-1">
         Currently, I’m working as a Frontend Developer Intern at Unified Mentor,
         where I continue to grow as a developer, collaborate with experienced
         engineers, and contribute to meaningful projects. I’m passionate about
@@ -56,69 +41,41 @@ const AboutPage = () => {
         code, and staying up-to-date with the latest trends in web development.
         Whether it's solving complex problems or learning a new framework, I
         thrive on challenges and am always eager to push my boundaries.
-      </div>
-      <div className="image-grid">
-        <div style={{ position: "relative", width: "100%", height: "100%" }}>
+      </p>
+      {/*Section that includes images of my experiance as a developer */}
+      <section className="image-grid">
+        <div className="relative w-100 h-100">
           <div className="image-grid-title">
-            <div>University of Singidunum</div>
-            <div style={{ fontWeight: "normal" }}>10+ Practical Projects</div>
+            <p>University of Singidunum</p>
+            <p className="font-w-normal">10+ Practical Projects</p>
           </div>
           <img
             src="/SingidunumUniverzitet.jpg"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              opacity: ".6",
-            }}
+            className="w-100 h-100 cover opacity-06"
           />
         </div>
-        <div style={{ position: "relative", width: "100%", height: "100%" }}>
+        <div className="relative w-100 h-100">
           <div className="image-grid-title">
-            <div>FactoryWW</div>
-            <div style={{ fontWeight: "normal" }}>Software Engineer 1</div>
+            <p>FactoryWW</p>
+            <p className="font-w-normal">Software Engineer 1</p>
           </div>
-          <img
-            src="/office.jpg"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              opacity: ".6",
-            }}
-          />
+          <img src="/office.jpg" className="w-100 h-100 cover opacity-06" />
         </div>
-        <div style={{ position: "relative", width: "100%", height: "100%" }}>
+        <div className="relative w-100 h-100">
           <div className="image-grid-title">
-            <div>Udemy</div>
-            <div style={{ fontWeight: "normal" }}>5+ Web Courses</div>
+            <p>Udemy</p>
+            <p className="font-w-normal">5+ Web Courses</p>
           </div>
-          <img
-            src="/seo.jpg"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              opacity: ".6",
-            }}
-          />
+          <img src="/seo.jpg" className="w-100 h-100 cover opacity-06" />
         </div>
-        <div style={{ position: "relative", width: "100%", height: "100%" }}>
+        <div className="relative w-100 h-100">
           <div className="image-grid-title">
-            <div>Unified Mentor</div>
-            <div style={{ fontWeight: "normal" }}>Frontend Developer Intern</div>
+            <p>Unified Mentor</p>
+            <p className="font-w-normal">Frontend Developer Intern</p>
           </div>
-          <img
-            src="/unified.jpg"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              opacity: ".6",
-            }}
-          />
+          <img src="/unified.jpg" className="w-100 h-100 cover opacity-06" />
         </div>
-      </div>
+      </section>
     </div>
   );
 };

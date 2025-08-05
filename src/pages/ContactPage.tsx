@@ -1,4 +1,4 @@
-import { Button, Col, Form, Input, notification, Row } from "antd";
+import { Button, Col, Form, Input, Row } from "antd";
 import { useForm } from "antd/es/form/Form";
 import TextArea from "antd/es/input/TextArea";
 import { IoLocationSharp } from "react-icons/io5";
@@ -35,6 +35,7 @@ const ContactPage = () => {
   };
   return (
     <>
+      {/* Simple ContactPage component with the function of sending email messages */}
       <ToastContainer position="top-right" autoClose={3000} />
       <div className="w-100 h-100 flex justify-center">
         <div>
@@ -44,11 +45,9 @@ const ContactPage = () => {
                 <h1 className="contact-heading">
                   Contact me and let's build amazing things thogether
                 </h1>
-                <div style={{ fontSize: "1.1rem" }}>
+                <div className="font-11">
                   <div>
-                    <IoLocationSharp
-                      style={{ color: "red", marginRight: ".5rem" }}
-                    />
+                    <IoLocationSharp className="red mr-05" />
                     Belgrade
                   </div>
                   <div className="pt-1">
@@ -57,7 +56,7 @@ const ContactPage = () => {
                       <a
                         href="https://www.linkedin.com/in/dusan-ilic-0997b4166/"
                         target="_blank"
-                        style={{ color: "white", fontWeight: "normal" }}
+                        className="white font-w-normal"
                       >
                         LinkedIn
                       </a>
@@ -66,7 +65,7 @@ const ContactPage = () => {
                       <a
                         href="https://www.github.com/zvoosh"
                         target="_blank"
-                        style={{ color: "white", fontWeight: "normal" }}
+                        className="white font-w-normal"
                       >
                         Github
                       </a>
@@ -77,18 +76,15 @@ const ContactPage = () => {
                 </div>
               </div>
             </Col>
-            <Col
-              className="w-100 flex justify-center"
-              style={{ height: "fit-content" }}
-            >
+            <Col className="w-100 flex justify-center height-fit">
               <div className="form-wrapper">
                 <div className="fill-form-title">
-                  <div>Fill the form below</div>
-                  <div>and send me an email message</div>
+                  <p>Fill the form below</p>
+                  <p>and send me an email message</p>
                 </div>
                 <Form
                   name="basic"
-                  style={{ width: "75%" }}
+                  className="w-75"
                   layout="vertical"
                   form={submitForm}
                   onFinish={onFinish}
@@ -98,10 +94,7 @@ const ContactPage = () => {
                       <Form.Item
                         labelAlign="left"
                         label={
-                          <span
-                            className="text-white font-12"
-                            style={{ color: "white" }}
-                          >
+                          <span className="text-white font-12 white">
                             First name
                           </span>
                         }
@@ -120,10 +113,7 @@ const ContactPage = () => {
                     <Col xs={24} md={12}>
                       <Form.Item
                         label={
-                          <span
-                            className="text-white font-12"
-                            style={{ color: "white" }}
-                          >
+                          <span className="text-white font-12 white">
                             Last name
                           </span>
                         }
@@ -144,10 +134,7 @@ const ContactPage = () => {
                       <Form.Item
                         labelAlign="left"
                         label={
-                          <span
-                            className="text-white font-12"
-                            style={{ color: "white" }}
-                          >
+                          <span className="text-white font-12 white">
                             Email
                           </span>
                         }
@@ -166,10 +153,7 @@ const ContactPage = () => {
                     <Col xs={24} md={12}>
                       <Form.Item
                         label={
-                          <span
-                            className="text-white font-12"
-                            style={{ color: "white" }}
-                          >
+                          <span className="text-white font-12 white">
                             Subject
                           </span>
                         }
@@ -189,10 +173,7 @@ const ContactPage = () => {
                     <Col span={24}>
                       <Form.Item
                         label={
-                          <span
-                            className="text-white font-12"
-                            style={{ color: "white" }}
-                          >
+                          <span className="text-white font-12 white">
                             Message
                           </span>
                         }
@@ -206,11 +187,7 @@ const ContactPage = () => {
                     </Col>
                   </Row>
                   <Row justify={"end"}>
-                    <Button
-                      type="primary"
-                      htmlType="submit"
-                      style={{ backgroundColor: "green" }}
-                    >
+                    <Button type="primary" htmlType="submit" className="green">
                       Send
                     </Button>
                   </Row>

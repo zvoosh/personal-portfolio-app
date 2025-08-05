@@ -67,6 +67,19 @@ const Header = () => {
         >
           Contact
         </div>
+
+        <a
+          href="/Dusan Ilic CV.pdf"
+          download={true}
+          className="no-decoration white white-hover"
+        >
+          <div
+            style={{ padding: ".5rem" }}
+            className={`m-1 user-none pointer no-decoration white-hover`}
+          >
+            Download PDF Resume
+          </div>
+        </a>
       </div>
       <div className="header">
         <div className="burger-display">
@@ -119,8 +132,12 @@ const Header = () => {
           >
             Contact
           </div>
-          <a href="/Dusan Ilic CV.pdf" download={true} style={{color: 'white'}}>
-            <div className={`m-1 user-none pointer`} onClick={() => {}}>
+          <a
+            href="/Dusan Ilic CV.pdf"
+            download={true}
+            className="no-decoration white white-hover"
+          >
+            <div className={`m-1 user-none pointer no-decoration white-hover`}>
               Download PDF Resume
             </div>
           </a>

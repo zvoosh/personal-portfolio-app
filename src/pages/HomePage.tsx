@@ -11,13 +11,15 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   return (
+    // HomePage component showcases image of me and my biography
+    // with the introduction of other sections of this website
     <div
       className="w-100 h-100 mobile-padding-3"
       style={{
         overflow: "auto",
       }}
     >
-      <div className="biography">
+      <section className="biography">
         <div className="bio-img">
           <img src="/DusanIlicCv.jpeg" alt="profile" />
         </div>
@@ -35,9 +37,9 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div style={{ marginBottom: "2rem", marginTop: "2rem" }}>
+      </section>
+      <section>
+        <div className="mb-2 mt-2">
           <h2 className="font-16 bold mb-05">About me</h2>
           <div className="ml-1 mb-05">
             My passion for software development began in high school, where I
@@ -57,48 +59,45 @@ const HomePage = () => {
             Read more
           </button>
         </div>
-      </div>
-      <div>
-        <div>
-          <h2 className="font-16 bold mb-05">Projects</h2>
-          <div className="ml-1 mb-05">
-            Over the course of my four years at university, I developed more
-            than 20 practical projects using a wide range of technologies. These
-            projects allowed me to experiment with different programming
-            languages and frameworks, including React, Angular, Java, Python,
-            and more. Each project was an opportunity to apply theoretical
-            knowledge to real-world scenarios—whether it was building
-            interactive web applications, designing backend systems, or
-            exploring data-driven solutions.
-          </div>
-          <button
-            className="btn"
-            onClick={() => {
-              navigate("/projects", { viewTransition: true });
-            }}
-          >
-            Read more
-          </button>
+      </section>
+      <section>
+        <h2 className="font-16 bold mb-05">Projects</h2>
+        <div className="ml-1 mb-05">
+          Over the course of my four years at university, I developed more than
+          20 practical projects using a wide range of technologies. These
+          projects allowed me to experiment with different programming languages
+          and frameworks, including React, Angular, Java, Python, and more. Each
+          project was an opportunity to apply theoretical knowledge to
+          real-world scenarios—whether it was building interactive web
+          applications, designing backend systems, or exploring data-driven
+          solutions.
         </div>
-        <Image.PreviewGroup>
-          <Carousel autoplay style={{ marginTop: "2rem" }} arrows>
-            {imageUrls.map((url, index) => (
-              <div
+        <button
+          className="btn"
+          onClick={() => {
+            navigate("/projects", { viewTransition: true });
+          }}
+        >
+          Read more
+        </button>
+      </section>
+      <Image.PreviewGroup>
+        <Carousel autoplay className="mt-2" arrows>
+          {imageUrls.map((url, index) => (
+            <div
+              key={index}
+              className="flex justify-center align-center text-center"
+            >
+              <Image
                 key={index}
-                className="flex justify-center align-center"
-                style={{ textAlign: "center" }}
-              >
-                <Image
-                  key={index}
-                  src={url}
-                  preview={{ getContainer: "#root" }}
-                  style={{ objectFit: "contain" }}
-                />
-              </div>
-            ))}
-          </Carousel>
-        </Image.PreviewGroup>
-      </div>
+                src={url}
+                preview={{ getContainer: "#root" }}
+                className="contain"
+              />
+            </div>
+          ))}
+        </Carousel>
+      </Image.PreviewGroup>
     </div>
   );
 };
