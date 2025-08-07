@@ -133,7 +133,7 @@ const Header = () => {
             Contact
           </div>
           <a
-            href="/Dusan Ilic CV.pdf"
+            href="/personal-portfolio-app/Dusan Ilic CV.pdf"
             download={true}
             className="no-decoration white white-hover"
           >
