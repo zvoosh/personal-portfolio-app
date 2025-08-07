@@ -21,7 +21,7 @@ const HomePage = () => {
     >
       <section className="biography">
         <div className="bio-img">
-          <img src="./DusanIlicCv.jpeg" alt="profile" />
+          <img src="/personal-portfolio-app/DusanIlicCv.jpeg" alt="profile" />
         </div>
         <div className="bio-info">
           <div className="w-100 flex flex-col justify-center align-center">
