@@ -16,7 +16,7 @@ A sleek, responsive personal portfolio built with React, Vite, and modern stylin
 - **About & Contact Sections**
 - **SEO Friendly Setup**
 
-## 🧑‍💻 Getting Started
+## Getting Started
 
 To run locally:
 
@@ -31,3 +31,21 @@ npm install
 # Start development server
 npm run dev
 ```
+
+## Usage
+
+The user can navigate through the website using the navbar on larger screens and the hamburger menu icon for smaller screens. Navigation links are also included in the Home page sections of topics. User can preview projects, read the About page, Contact the author by email and download his CV.
+
+## Deployment
+
+The project is hosted on Github pages and can be deployed with:
+
+```bash
+npm install
+```
+
+## Licence
+
+MIT
+
+Built with ❤️ by zvoosh.
