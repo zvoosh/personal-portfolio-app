@@ -3,11 +3,11 @@ import { Carousel, Image } from "antd";
 import { useState } from "react";
 
 const HomePage = () => {
-  const [imageUrls, setImageUrls] = useState<string[]>([
-    "/vaco.png",
-    "/china.png",
-    "/personal.png",
-  ]);
+  const imageUrls = [
+    "/personal-portfolio-app/vaco.png",
+    "/personal-portfolio-app/china.png",
+    "/personal-portfolio-app/personal.png",
+  ];
   const navigate = useNavigate();
 
   return (
