@@ -8,7 +8,7 @@ const ProjectsPage = () => {
           target="_blank"
           className="image-wrapper"
         >
-          <img src="/china.png" className="w-100 h-100 cover" />
+          <img src="./china.png" className="w-100 h-100 cover" />
         </a>
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-11">
@@ -37,7 +37,7 @@ const ProjectsPage = () => {
           target="_blank"
           className="image-wrapper"
         >
-          <img src="/personal.png" className="w-100 h-100 cover" />
+          <img src="./personal.png" className="w-100 h-100 cover" />
         </a>
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-11">
@@ -64,7 +64,7 @@ const ProjectsPage = () => {
           target="_blank"
           className="image-wrapper"
         >
-          <img src="/imageSlider.png" className="w-100 h-100 cover" />
+          <img src="./imageSlider.png" className="w-100 h-100 cover" />
         </a>
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-11">
@@ -91,7 +91,7 @@ const ProjectsPage = () => {
           className="image-wrapper"
           target="_blank"
         >
-          <img src="/todolist.png" className="w-100 h-100 cover" />
+          <img src="./todolist.png" className="w-100 h-100 cover" />
         </a>
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-11">

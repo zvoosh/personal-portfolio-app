@@ -50,7 +50,7 @@ const AboutPage = () => {
             <p className="font-w-normal">10+ Practical Projects</p>
           </div>
           <img
-            src="/SingidunumUniverzitet.jpg"
+            src="./SingidunumUniverzitet.jpg"
             className="w-100 h-100 cover opacity-06"
           />
         </div>
@@ -59,21 +59,21 @@ const AboutPage = () => {
             <p>FactoryWW</p>
             <p className="font-w-normal">Software Engineer 1</p>
           </div>
-          <img src="/office.jpg" className="w-100 h-100 cover opacity-06" />
+          <img src="./office.jpg" className="w-100 h-100 cover opacity-06" />
         </div>
         <div className="relative w-100 h-100">
           <div className="image-grid-title">
             <p>Udemy</p>
             <p className="font-w-normal">5+ Web Courses</p>
           </div>
-          <img src="/seo.jpg" className="w-100 h-100 cover opacity-06" />
+          <img src="./seo.jpg" className="w-100 h-100 cover opacity-06" />
         </div>
         <div className="relative w-100 h-100">
           <div className="image-grid-title">
             <p>Unified Mentor</p>
             <p className="font-w-normal">Frontend Developer Intern</p>
           </div>
-          <img src="/unified.jpg" className="w-100 h-100 cover opacity-06" />
+          <img src="./unified.jpg" className="w-100 h-100 cover opacity-06" />
         </div>
       </section>
     </div>
