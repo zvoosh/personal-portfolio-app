@@ -22,7 +22,7 @@ A sleek, responsive personal portfolio built with React, Vite, and modern stylin
 
 <img src="images\first.png" />
 <img src="images\second.png" />
-<img src="images\thrid.png" />
+<img src="images\third.png" />
 <img src="images\fourth.png" />
 
 ## Getting Started
