@@ -2,7 +2,7 @@ import
 
 # Personal Portfolio App
 
-A sleek, responsive personal portfolio built with React, Vite, and modern styling tools.
+A good looking, responsive personal portfolio built with React, Vite, and modern styling tools.
 
 ## Tech Stack
 
