@@ -18,10 +18,10 @@ A sleek, responsive personal portfolio built with React, Vite, and modern stylin
 
 ## Screenshots
 
-<img src="https://zvoosh.github.io/personal-portfolio-app/first.png" />
-<img src="https://zvoosh.github.io/personal-portfolio-app/second.png" />
-<img src="https://zvoosh.github.io/personal-portfolio-app/third.png" />
-<img src="https://zvoosh.github.io/personal-portfolio-app/fourth.png" />
+<img src="/first.png" />
+<img src="/second.png" />
+<img src="/third.png" />
+<img src="/fourth.png" />
 
 ## Getting Started
 
