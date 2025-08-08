@@ -1,3 +1,5 @@
+import
+
 # Personal Portfolio App
 
 A sleek, responsive personal portfolio built with React, Vite, and modern styling tools.
@@ -18,10 +20,10 @@ A sleek, responsive personal portfolio built with React, Vite, and modern stylin
 
 ## Screenshots
 
-<img src="/first.png" />
-<img src="/second.png" />
-<img src="/third.png" />
-<img src="/fourth.png" />
+<img src="images\first.png" />
+<img src="images\second.png" />
+<img src="images\thrid.png" />
+<img src="images\fourth.png" />
 
 ## Getting Started
 
