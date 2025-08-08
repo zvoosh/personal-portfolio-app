@@ -18,10 +18,10 @@ A sleek, responsive personal portfolio built with React, Vite, and modern stylin
 
 ## Screenshots
 
-![HomePage Image](assets/first.png)
-![AboutPage Image](assets/second.png)
-![ProjectsPage Image](assets/third.png)
-![ContactPage Image](assets/fourth.png)
+<img src="/assets/first.png" />
+<img src="/assets/second.png" />
+<img src="/assets/third.png" />
+<img src="/assets/fourth.png" />
 
 ## Getting Started
 
