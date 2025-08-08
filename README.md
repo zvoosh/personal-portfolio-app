@@ -16,6 +16,13 @@ A sleek, responsive personal portfolio built with React, Vite, and modern stylin
 - **About & Contact Sections**
 - **SEO Friendly Setup**
 
+## Screenshots
+
+![HomePage Image](/personal-portfolio-app/first.png)
+![AboutPage Image](/personal-portfolio-app/second.png)
+![ProjectsPage Image](/personal-portfolio-app/third.png)
+![ContactPage Image](/personal-portfolio-app/fourth.png)
+
 ## Getting Started
 
 To run locally:
