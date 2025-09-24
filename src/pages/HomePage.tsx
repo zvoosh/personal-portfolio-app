@@ -4,11 +4,11 @@ import { useState } from "react";
 
 const HomePage = () => {
   const imageUrls = [
-    "/personal-portfolio-app/vaco.png",
-    "/personal-portfolio-app/china.png",
-    "/personal-portfolio-app/expenseTrack.png",
-    "/personal-portfolio-app/personal.png",
-    "/personal-portfolio-app/todo.png",
+    "/images/vaco.png",
+    "/images/china.png",
+    "/images/expenseTrack.png",
+    "/images/personal.png",
+    "/images/todo.png",
   ];
   const navigate = useNavigate();
 
@@ -16,14 +16,14 @@ const HomePage = () => {
     // HomePage component showcases image of me and my biography
     // with the introduction of other sections of this website
     <div
-      className="w-100 h-100 mobile-padding-3"
+      className="w-100 h-100 mobile-padding-3 font-11 "
       style={{
         overflow: "auto",
       }}
     >
       <section className="biography">
         <div className="bio-img">
-          <img src="/personal-portfolio-app/DusanIlicCv.jpeg" alt="profile" />
+          <img src="/images/DusanIlicCv.jpeg" alt="profile" />
         </div>
         <div className="bio-info">
           <div className="w-100 flex flex-col justify-center align-center">

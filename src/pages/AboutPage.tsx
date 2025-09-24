@@ -3,7 +3,7 @@ const AboutPage = () => {
     // AboutPage represents my journey as a developer
     <div className="w-100 h-100 flex justify-center flex-col mb-1">
       <h2 className="mt-2 underline underline-5">About me</h2>
-      <div className="font-13">
+      <div className="font-11">
         <p className="mt-2">
           Throughout my studies, I explored a diverse set of subjects that
           shaped my understanding of both theoretical and practical aspects of
@@ -53,7 +53,7 @@ const AboutPage = () => {
             <p className="font-w-normal">10+ Practical Projects</p>
           </div>
           <img
-            src="/personal-portfolio-app/SingidunumUniverzitet.jpg"
+            src="/images/SingidunumUniverzitet.jpg"
             className="w-100 h-100 cover opacity-06"
           />
         </div>
@@ -63,7 +63,7 @@ const AboutPage = () => {
             <p className="font-w-normal">Software Engineer 1</p>
           </div>
           <img
-            src="/personal-portfolio-app/office.jpg"
+            src="/images/office.jpg"
             className="w-100 h-100 cover opacity-06"
           />
         </div>
@@ -73,7 +73,7 @@ const AboutPage = () => {
             <p className="font-w-normal">5+ Web Courses</p>
           </div>
           <img
-            src="/personal-portfolio-app/seo.jpg"
+            src="/images/seo.jpg"
             className="w-100 h-100 cover opacity-06"
           />
         </div>
@@ -83,7 +83,7 @@ const AboutPage = () => {
             <p className="font-w-normal">Freelance web developer</p>
           </div>
           <img
-            src="/personal-portfolio-app/vaco.png"
+            src="/images/vaco.png"
             className="w-100 h-100 cover opacity-06"
           />
         </div>
@@ -93,7 +93,7 @@ const AboutPage = () => {
             <p className="font-w-normal">Barista</p>
           </div>
           <img
-            src="/personal-portfolio-app/coffeeshop.jpg"
+            src="/images/coffeeshop.jpg"
             className="w-100 h-100 cover opacity-06"
           />
         </div>
@@ -103,7 +103,7 @@ const AboutPage = () => {
             <p className="font-w-normal">Frontend Developer Intern</p>
           </div>
           <img
-            src="/personal-portfolio-app/unified.jpg"
+            src="/images/unified.jpg"
             className="w-100 h-100 cover opacity-06"
           />
         </div>

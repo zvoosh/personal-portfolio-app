@@ -1,7 +1,7 @@
 const ProjectsPage = () => {
   return (
     // ProjectsPage displays a collection of project showcases
-    <div className="w-100 h-100">
+    <div className="w-100 h-100 ">
       <section className="project-wrapper mb-3">
         <a
           href="https://zvoosh.github.io/Chinese-Cultural-Evolution/"
@@ -9,7 +9,7 @@ const ProjectsPage = () => {
           className="image-wrapper"
         >
           <img
-            src="/personal-portfolio-app/china.png"
+            src="/images/china.png"
             className="w-100 h-100 cover"
           />
         </a>
@@ -41,7 +41,7 @@ const ProjectsPage = () => {
           className="image-wrapper"
         >
           <img
-            src="/personal-portfolio-app/personal.png"
+            src="/images/personal.png"
             className="w-100 h-100 cover"
           />
         </a>
@@ -71,7 +71,7 @@ const ProjectsPage = () => {
           className="image-wrapper"
         >
           <img
-            src="/personal-portfolio-app/imageSlider.png"
+            src="/images/imageSlider.png"
             className="w-100 h-100 cover"
           />
         </a>
@@ -101,7 +101,7 @@ const ProjectsPage = () => {
           target="_blank"
         >
           <img
-            src="/personal-portfolio-app/todo.png"
+            src="/images/todo.png"
             className="w-100 h-100 cover"
           />
         </a>
@@ -130,7 +130,7 @@ const ProjectsPage = () => {
           target="_blank"
         >
           <img
-            src="/personal-portfolio-app/expenseTrack.png"
+            src="/images/expenseTrack.png"
             className="w-100 h-100 cover"
           />
         </a>
@@ -157,7 +157,7 @@ const ProjectsPage = () => {
           target="_blank"
         >
           <img
-            src="/personal-portfolio-app/vaco.png"
+            src="/images/vaco.png"
             className="w-100 h-100 cover"
           />
         </a>
