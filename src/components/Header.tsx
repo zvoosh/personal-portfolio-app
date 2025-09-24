@@ -69,7 +69,7 @@ const Header = () => {
         </div>
 
         <a
-          href="/Dusan Ilic CV.pdf"
+          href="/images/dusan-ilic-cv.pdf"
           download={true}
           className="no-decoration white white-hover"
         >
