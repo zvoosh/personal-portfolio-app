@@ -6,7 +6,9 @@ const HomePage = () => {
   const imageUrls = [
     "/personal-portfolio-app/vaco.png",
     "/personal-portfolio-app/china.png",
+    "/personal-portfolio-app/expenseTrack.png",
     "/personal-portfolio-app/personal.png",
+    "/personal-portfolio-app/todo.png",
   ];
   const navigate = useNavigate();
 

@@ -8,10 +8,13 @@ const ProjectsPage = () => {
           target="_blank"
           className="image-wrapper"
         >
-          <img src="/personal-portfolio-app/china.png" className="w-100 h-100 cover" />
+          <img
+            src="/personal-portfolio-app/china.png"
+            className="w-100 h-100 cover"
+          />
         </a>
         <div className="text-wrapper">
-          <h2 className="underline underline-5 font-11">
+          <h2 className="underline underline-5 font-12">
             <a
               href="https://zvoosh.github.io/Chinese-Cultural-Evolution/"
               target="_blank"
@@ -20,7 +23,7 @@ const ProjectsPage = () => {
               Brief History of Chinese Cultural Development
             </a>
           </h2>
-          <p className="mt-1">
+          <p className="mt-1 font-11">
             This project was developed as part of my graduate thesis and serves
             as an educational exploration of Chinese culture throughout history.
             The website offers a concise yet insightful overview of the
@@ -37,10 +40,13 @@ const ProjectsPage = () => {
           target="_blank"
           className="image-wrapper"
         >
-          <img src="/personal-portfolio-app/personal.png" className="w-100 h-100 cover" />
+          <img
+            src="/personal-portfolio-app/personal.png"
+            className="w-100 h-100 cover"
+          />
         </a>
         <div className="text-wrapper">
-          <h2 className="underline underline-5 font-11">
+          <h2 className="underline underline-5 font-12">
             <a
               href="https://dusanprogram.eu/"
               target="_blank"
@@ -49,7 +55,7 @@ const ProjectsPage = () => {
               Personal website
             </a>
           </h2>
-          <p className="mt-1">
+          <p className="mt-1 font-11">
             This freelance project was developed for a professional photographer
             and video director, with the goal of creating a visually engaging
             fontSize: '1.1rem'a nd comprehensive online portfolio. The website
@@ -64,10 +70,13 @@ const ProjectsPage = () => {
           target="_blank"
           className="image-wrapper"
         >
-          <img src="/personal-portfolio-app/imageSlider.png" className="w-100 h-100 cover" />
+          <img
+            src="/personal-portfolio-app/imageSlider.png"
+            className="w-100 h-100 cover"
+          />
         </a>
         <div className="text-wrapper">
-          <h2 className="underline underline-5 font-11">
+          <h2 className="underline underline-5 font-12">
             <a
               href="https://zvoosh.github.io/imageSlider/"
               target="_blank"
@@ -76,7 +85,7 @@ const ProjectsPage = () => {
               Image Slider
             </a>
           </h2>
-          <p className="mt-1">
+          <p className="mt-1 font-11">
             This project was designed to function as a versatile image slider,
             ideal for showcasing visual content across a wide range of
             devices.Built with clean, modular HTML, the component emphasizes
@@ -87,27 +96,83 @@ const ProjectsPage = () => {
       </section>
       <section className="project-wrapper mb-3">
         <a
-          href="https://zvoosh.github.io/ToDoListApp/"
+          href="https://todolist.dusanprogram.eu/"
           className="image-wrapper"
           target="_blank"
         >
-          <img src="/personal-portfolio-app/todolist.png" className="w-100 h-100 cover" />
+          <img
+            src="/personal-portfolio-app/todo.png"
+            className="w-100 h-100 cover"
+          />
         </a>
         <div className="text-wrapper">
-          <h2 className="underline underline-5 font-11">
+          <h2 className="underline underline-5 font-12">
             <a
-              href="https://zvoosh.github.io/ToDoListApp/"
+              href="https://todolist.dusanprogram.eu/"
               target="_blank"
               className="white no-decoration pointer white-hover"
             >
               To-Do List
             </a>
           </h2>
-          <p className="mt-1">
+          <p className="mt-1 font-11">
             This project is a task management app designed to help users stay
             organized and productive. The core functionality centers around
             creating, categorizing, and tracking tasks to ensure nothing gets
             overlooked.
+          </p>
+        </div>
+      </section>
+      <section className="project-wrapper mb-3">
+        <a
+          href="https://expensetrack.dusanprogram.eu/"
+          className="image-wrapper"
+          target="_blank"
+        >
+          <img
+            src="/personal-portfolio-app/expenseTrack.png"
+            className="w-100 h-100 cover"
+          />
+        </a>
+        <div className="text-wrapper">
+          <h2 className="underline underline-5 font-12">
+            <a
+              href="https://expensetrack.dusanprogram.eu/"
+              target="_blank"
+              className="white no-decoration pointer white-hover"
+            >
+              Expense Track
+            </a>
+          </h2>
+          <p className="mt-1 font-11">
+            This project serves as an expense tracker designed to help users
+            track their cashflow through graphs pi charts and data tables.
+          </p>
+        </div>
+      </section>
+      <section className="project-wrapper mb-3">
+        <a
+          href=""
+          className="image-wrapper"
+          target="_blank"
+        >
+          <img
+            src="/personal-portfolio-app/vaco.png"
+            className="w-100 h-100 cover"
+          />
+        </a>
+        <div className="text-wrapper">
+          <h2 className="underline underline-5 font-12">
+            <a
+              href=""
+              target="_blank"
+              className="white no-decoration pointer white-hover"
+            >
+              Vaco
+            </a>
+          </h2>
+          <p className="mt-1 font-11">
+            Freelance project made for a proffessional photographer and video director.
           </p>
         </div>
       </section>
