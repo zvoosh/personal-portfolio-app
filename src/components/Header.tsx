@@ -67,10 +67,9 @@ const Header = () => {
         >
           Contact
         </div>
-
         <a
           href="/images/dusan-ilic-cv.pdf"
-          download={true}
+          download
           className="no-decoration white white-hover"
         >
           <div
@@ -133,7 +132,7 @@ const Header = () => {
             Contact
           </div>
           <a
-            href="/personal-portfolio-app/Dusan Ilic CV.pdf"
+            href="/images/dusan-ilic-cv.pdf"
             download={true}
             className="no-decoration white white-hover"
           >
