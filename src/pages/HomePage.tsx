@@ -16,7 +16,7 @@ const HomePage = () => {
     // HomePage component showcases image of me and my biography
     // with the introduction of other sections of this website
     <div
-      className="w-100 h-100 mobile-padding-3 font-11 "
+      className="w-100 h-100 mb-3 font-11 "
       style={{
         overflow: "auto",
       }}

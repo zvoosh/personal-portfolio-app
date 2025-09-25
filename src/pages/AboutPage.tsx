@@ -1,7 +1,7 @@
 const AboutPage = () => {
   return (
     // AboutPage represents my journey as a developer
-    <div className="w-100 h-100 flex justify-center flex-col mb-1">
+    <div className="w-100 h-100 flex justify-center flex-col mb-3">
       <h2 className="mt-2 underline underline-5">About me</h2>
       <div className="font-11">
         <p className="mt-2">

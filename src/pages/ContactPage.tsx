@@ -37,7 +37,7 @@ const ContactPage = () => {
     <>
       {/* Simple ContactPage component with the function of sending email messages */}
       <ToastContainer position="top-right" autoClose={3000} />
-      <div className="w-100 h-100 flex justify-center">
+      <div className="w-100 h-100 flex justify-center mb-3">
         <div>
           <Row gutter={16} className="w-100 h-100 text-white">
             <Col>
