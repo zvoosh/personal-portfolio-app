@@ -1,6 +1,5 @@
 const ProjectsPage = () => {
   return (
-    // ProjectsPage displays a collection of project showcases
     <div className="w-100 h-100 ">
       <section className="project-wrapper mb-3">
         <a
@@ -8,10 +7,7 @@ const ProjectsPage = () => {
           target="_blank"
           className="image-wrapper"
         >
-          <img
-            src="/images/china.png"
-            className="w-100 h-100 cover"
-          />
+          <img src="/images/china.png" className="w-100 h-100 cover" />
         </a>
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-12">
@@ -40,10 +36,7 @@ const ProjectsPage = () => {
           target="_blank"
           className="image-wrapper"
         >
-          <img
-            src="/images/personal.png"
-            className="w-100 h-100 cover"
-          />
+          <img src="/images/personal.png" className="w-100 h-100 cover" />
         </a>
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-12">
@@ -70,10 +63,7 @@ const ProjectsPage = () => {
           target="_blank"
           className="image-wrapper"
         >
-          <img
-            src="/images/imageSlider.png"
-            className="w-100 h-100 cover"
-          />
+          <img src="/images/imageSlider.png" className="w-100 h-100 cover" />
         </a>
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-12">
@@ -100,10 +90,7 @@ const ProjectsPage = () => {
           className="image-wrapper"
           target="_blank"
         >
-          <img
-            src="/images/todo.png"
-            className="w-100 h-100 cover"
-          />
+          <img src="/images/todo.png" className="w-100 h-100 cover" />
         </a>
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-12">
@@ -129,10 +116,7 @@ const ProjectsPage = () => {
           className="image-wrapper"
           target="_blank"
         >
-          <img
-            src="/images/expenseTrack.png"
-            className="w-100 h-100 cover"
-          />
+          <img src="/images/expenseTrack.png" className="w-100 h-100 cover" />
         </a>
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-12">
@@ -151,15 +135,8 @@ const ProjectsPage = () => {
         </div>
       </section>
       <section className="project-wrapper mb-3">
-        <a
-          href=""
-          className="image-wrapper"
-          target="_blank"
-        >
-          <img
-            src="/images/vaco.png"
-            className="w-100 h-100 cover"
-          />
+        <a href="" className="image-wrapper" target="_blank">
+          <img src="/images/vaco.png" className="w-100 h-100 cover" />
         </a>
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-12">
@@ -172,7 +149,31 @@ const ProjectsPage = () => {
             </a>
           </h2>
           <p className="mt-1 font-11">
-            Freelance project made for a proffessional photographer and video director.
+            Freelance project made for a proffessional photographer and video
+            director.
+          </p>
+        </div>
+      </section>
+      <section className="project-wrapper mb-3">
+        <a
+          href="https://mygallery.dusanprogram.eu"
+          className="image-wrapper"
+          target="_blank"
+        >
+          <img src="/images/mygallery.png" className="w-100 h-100 cover" />
+        </a>
+        <div className="text-wrapper">
+          <h2 className="underline underline-5 font-12">
+            <a
+              href="https://mygallery.dusanprogram.eu"
+              target="_blank"
+              className="white no-decoration pointer white-hover"
+            >
+              My Gallery
+            </a>
+          </h2>
+          <p className="mt-1 font-11">
+            Personal project for a gallery to keep my images.
           </p>
         </div>
       </section>

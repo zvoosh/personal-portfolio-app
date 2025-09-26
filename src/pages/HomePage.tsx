@@ -9,6 +9,7 @@ const HomePage = () => {
     "/images/expenseTrack.png",
     "/images/personal.png",
     "/images/todo.png",
+    "/images/mygallery.png",
   ];
   const navigate = useNavigate();
 
@@ -29,13 +30,17 @@ const HomePage = () => {
           <div className="w-100 flex flex-col justify-center align-center">
             <h1 className="font-16 bold mb-05">Biografy</h1>
             <div className="ml-1 mb-05">
-              Hi, I'm Dusan Ilic an Informatics graduate with a deep passion for
-              web development and modern technologies. During my third year of
-              university, I joined FactoryWW as a Software Developer 1, where I
-              spent a year sharpening my skills in a professional development
+              I'm an Informatics graduate with a passion for web development and
+              modern technologies. During my third year of university, I joined
+              Factory Worldwide as a Software Developer 1, where I spent 11
+              months sharpening my skills in a professional development
               environment. Since then, I've continued growing through hands-on
-              projects and coursework in frameworks like Angular, Flask, and
-              React.
+              projects and coursework in frameworks such as Angular, Flask, and
+              React. I have experience across a variety of programming languages
+              and tools and take a particular interest in the intersection of
+              web engineering, Data Science, and AI. I'm hardworking, positive,
+              and purpose-driven — always focused on delivering high-quality
+              results on time.
             </div>
           </div>
         </div>

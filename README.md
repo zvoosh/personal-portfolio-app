@@ -47,11 +47,7 @@ The user can navigate through the website using the navbar on larger screens and
 
 ## Deployment
 
-The project is hosted on Github pages and can be deployed with:
-
-```bash
-npm install
-```
+The project is hosted on Hostinger and can be deployed with domain: https://portfolio.dusanprogram.eu
 
 ## Licence
 
