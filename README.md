@@ -47,7 +47,7 @@ The user can navigate through the website using the navbar on larger screens and
 
 ## Deployment
 
-The project is hosted on Hostinger and can be viewed with domain: https://portfolio.dusanprogram.eu
+The project is hosted on Hostinger and can be viewed on domain: https://portfolio.dusanprogram.eu
 
 ## Licence
 
