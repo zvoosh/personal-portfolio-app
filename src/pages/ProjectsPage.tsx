@@ -179,7 +179,7 @@ const ProjectsPage = () => {
       </section>
       <section className="project-wrapper mb-3">
         <a
-          href="https://apointments.dusanprogram.eu/register"
+          href="https://apointments.dusanprogram.eu/"
           className="image-wrapper"
           target="_blank"
         >
@@ -188,7 +188,7 @@ const ProjectsPage = () => {
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-12">
             <a
-              href="https://apointments.dusanprogram.eu/register"
+              href="https://apointments.dusanprogram.eu/"
               target="_blank"
               className="white no-decoration pointer white-hover"
             >
@@ -197,6 +197,29 @@ const ProjectsPage = () => {
           </h2>
           <p className="mt-1 font-11">
             Unified mentor application project made to help students and teachers appoint their meetings.
+          </p>
+        </div>
+      </section>
+      <section className="project-wrapper mb-3">
+        <a
+          href="https://mypetlite.dusanprogram.eu/"
+          className="image-wrapper"
+          target="_blank"
+        >
+          <img src="/images/mypetlite.png" className="w-100 h-100 cover" />
+        </a>
+        <div className="text-wrapper">
+          <h2 className="underline underline-5 font-12">
+            <a
+              href="https://mypetlite.dusanprogram.eu/"
+              target="_blank"
+              className="white no-decoration pointer white-hover"
+            >
+              Virtual Pet Simulator
+            </a>
+          </h2>
+          <p className="mt-1 font-11">
+           My pet lite is an application that simulates taking care of a virtual pet, allowing users to feed, play with, and monitor the well-being of their digital companion.
           </p>
         </div>
       </section>
