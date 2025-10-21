@@ -10,6 +10,7 @@ const HomePage = () => {
     "/images/personal.png",
     "/images/todo.png",
     "/images/mygallery.png",
+    "/images/scheduler.png",
   ];
   const navigate = useNavigate();
 

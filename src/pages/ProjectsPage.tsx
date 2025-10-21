@@ -177,6 +177,29 @@ const ProjectsPage = () => {
           </p>
         </div>
       </section>
+      <section className="project-wrapper mb-3">
+        <a
+          href="https://apointments.dusanprogram.eu/register"
+          className="image-wrapper"
+          target="_blank"
+        >
+          <img src="/images/scheduler.png" className="w-100 h-100 cover" />
+        </a>
+        <div className="text-wrapper">
+          <h2 className="underline underline-5 font-12">
+            <a
+              href="https://apointments.dusanprogram.eu/register"
+              target="_blank"
+              className="white no-decoration pointer white-hover"
+            >
+              Student appointment scheduler
+            </a>
+          </h2>
+          <p className="mt-1 font-11">
+            Unified mentor application project made to help students and teachers appoint their meetings.
+          </p>
+        </div>
+      </section>
     </div>
   );
 };
