@@ -200,6 +200,29 @@ const ProjectsPage = () => {
           </p>
         </div>
       </section>
+      <section className="project-wrapper mb-3">
+        <a
+          href="https://supermall.dusanprogram.eu/user/stores/"
+          className="image-wrapper"
+          target="_blank"
+        >
+          <img src="/images/supermall3.png" className="w-100 h-100 cover" />
+        </a>
+        <div className="text-wrapper">
+          <h2 className="underline underline-5 font-12">
+            <a
+              href="https://supermall.dusanprogram.eu/user/stores/"
+              target="_blank"
+              className="white no-decoration pointer white-hover"
+            >
+              Supermall Application
+            </a>
+          </h2>
+          <p className="mt-1 font-11">
+            Unified mentor application project made as a supermall website application.
+          </p>
+        </div>
+      </section>
     </div>
   );
 };
