@@ -179,7 +179,7 @@ const ProjectsPage = () => {
       </section>
       <section className="project-wrapper mb-3">
         <a
-          href="https://apointments.dusanprogram.eu/register"
+          href="https://apointments.dusanprogram.eu/"
           className="image-wrapper"
           target="_blank"
         >
@@ -188,7 +188,7 @@ const ProjectsPage = () => {
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-12">
             <a
-              href="https://apointments.dusanprogram.eu/register"
+              href="https://apointments.dusanprogram.eu/"
               target="_blank"
               className="white no-decoration pointer white-hover"
             >
@@ -200,9 +200,34 @@ const ProjectsPage = () => {
           </p>
         </div>
       </section>
+      
       <section className="project-wrapper mb-3">
         <a
-          href="https://supermall.dusanprogram.eu/user/stores/"
+          href="https://mypetlite.dusanprogram.eu/"
+          className="image-wrapper"
+          target="_blank"
+        >
+          <img src="/images/mypetlite.png" className="w-100 h-100 cover" />
+        </a>
+        <div className="text-wrapper">
+          <h2 className="underline underline-5 font-12">
+            <a
+              href="https://mypetlite.dusanprogram.eu/"
+              target="_blank"
+              className="white no-decoration pointer white-hover"
+            >
+              Virtual Pet Simulator
+            </a>
+          </h2>
+          <p className="mt-1 font-11">
+            Unified Mentor project for presenting a virtual interactive pet simulator.
+          </p>
+        </div>
+      </section>
+      
+      <section className="project-wrapper mb-3">
+        <a
+          href="https://supermall.dusanprogram.eu/"
           className="image-wrapper"
           target="_blank"
         >
@@ -211,7 +236,7 @@ const ProjectsPage = () => {
         <div className="text-wrapper">
           <h2 className="underline underline-5 font-12">
             <a
-              href="https://supermall.dusanprogram.eu/user/stores/"
+              href="https://supermall.dusanprogram.eu/"
               target="_blank"
               className="white no-decoration pointer white-hover"
             >
@@ -219,10 +244,11 @@ const ProjectsPage = () => {
             </a>
           </h2>
           <p className="mt-1 font-11">
-            Unified mentor application project made as a supermall website application.
+            Unified mentor application made as a supermall website application.
           </p>
         </div>
       </section>
+      
     </div>
   );
 };

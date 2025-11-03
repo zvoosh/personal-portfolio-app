@@ -14,6 +14,7 @@ const HomePage = () => {
     "/images/supermall3.png",
     "/images/supermall2.png",
     "/images/supermall1.png",
+    "/images/mypetlite.png",
   ];
   const navigate = useNavigate();
 
