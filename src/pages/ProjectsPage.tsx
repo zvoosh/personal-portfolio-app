@@ -248,6 +248,29 @@ const ProjectsPage = () => {
           </p>
         </div>
       </section>
+      <section className="project-wrapper mb-3">
+        <a
+          href="https://soil.dusanprogram.eu/"
+          className="image-wrapper"
+          target="_blank"
+        >
+          <img src="/images/soil.png" className="w-100 h-100 cover" />
+        </a>
+        <div className="text-wrapper">
+          <h2 className="underline underline-5 font-12">
+            <a
+              href="https://soil.dusanprogram.eu/"
+              target="_blank"
+              className="white no-decoration pointer white-hover"
+            >
+              Soil Agent Application
+            </a>
+          </h2>
+          <p className="mt-1 font-11">
+            Unified mentor internship program application made as a soil agent.
+          </p>
+        </div>
+      </section>
       
     </div>
   );

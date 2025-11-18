@@ -12,9 +12,8 @@ const HomePage = () => {
     "/images/mygallery.png",
     "/images/scheduler.png",
     "/images/supermall3.png",
-    "/images/supermall2.png",
-    "/images/supermall1.png",
     "/images/mypetlite.png",
+    "/images/soil.png",
   ];
   const navigate = useNavigate();
 
